@@ -17,3 +17,7 @@ As a senior data analyst at the company, you've been given access to the complet
 * After creating a regression line for Capomulin Regimen based on Average Tumor Volume vs. Weight, shown that the heavier the mouse, the bigger average tumor volume has. However, after randomly selecting a mouse from Capomulin Regimen, we observed that they always have a decline on tumor volume over time points.
 
 * Regression line --> y = 0.95x + 21.55
+
+# Summary
+
+I have found duplicate information attached to a specific mouse ID and it was been removed all the data related to that mouse ID as it was asked for the project, leaving a total of 248 mice in the study group. The mice gender population was found to be a total of 50.4% male and 49.6% female.  After comparing the results and observations with the help of a scatter graph and box graphs, we can conclude that the second-best Drug Regimen is Capomulin after Ramicane. The results are very promising and not very different than Ramicane.  Overall, the drug regimen is very effective in reducing the tumor volume over 45 days. 
