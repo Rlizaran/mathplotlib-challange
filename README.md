@@ -14,10 +14,28 @@ As a senior data analyst at the company, you've been given access to the complet
 * The Drug Regimen Ceftamin, has an lower bound at 25.36 and an upper bound at 87.67 and has no outliers
 * The Drug Regimen Ramicane, has an lower bound at 17.91 and an upper bound at 54.31 and has no outliers
 * The Drug Regimen Capomulin, has an lower bound at 20.7 and an upper bound at 51.83 and has no outliers
+
+![Tumor size](https://github.com/Rlizaran/mathplotlib-challenge/blob/main/Pymaceuticals/Images/Tumor%20Size%20by%20Drug%20Regime.png)
+
+
 * After creating a regression line for Capomulin Regimen based on Average Tumor Volume vs. Weight, shown that the heavier the mouse, the bigger average tumor volume has. However, after randomly selecting a mouse from Capomulin Regimen, we observed that they always have a decline on tumor volume over time points.
+
+![Tumor Mouse](https://github.com/Rlizaran/mathplotlib-challenge/blob/main/Pymaceuticals/Images/Tumor%20volume%20vs%20Time%20Point%20(days)%20of%20Mouse%2C%20treated%20with%20Capomulin.png)
 
 * Regression line --> y = 0.95x + 21.55
 
+![regression line](https://github.com/Rlizaran/mathplotlib-challenge/blob/main/Pymaceuticals/Images/Average%20Tumor%20Volume%20vs.%20Mouse%20Weight%20for%20Capomulin%20Regimen.png)
+
 # Summary
 
-I have found duplicate information attached to a specific mouse ID and it was been removed all the data related to that mouse ID as it was asked for the project, leaving a total of 248 mice in the study group. The mice gender population was found to be a total of 50.4% male and 49.6% female.  After comparing the results and observations with the help of a scatter graph and box graphs, we can conclude that the second-best Drug Regimen is Capomulin after Ramicane. The results are very promising and not very different than Ramicane.  Overall, the drug regimen is very effective in reducing the tumor volume over 45 days. 
+I have found duplicate information attached to a specific mouse ID and it was been removed all the data related to that mouse ID as it was asked for the project, leaving a total of 248 mice in the study group. The mice gender population was found to be a total of 50.4% male and 49.6% female.  After comparing the results and observations with the help of a scatter graph and box graphs, we can conclude that the second-best Drug Regimen is Capomulin after Ramicane. The results are very promising and not very different than Ramicane.  Overall, the drug regimen is very effective in reducing the tumor volume over 45 days.
+
+# File Description
+### Images
+* Images store from the main script
+### data
+* csv files used for the project 
+  * [Mouse_metadata.csv](https://github.com/Rlizaran/mathplotlib-challenge/blob/main/Pymaceuticals/data/Mouse_metadata.csv)
+  * [Study_results.csv](https://github.com/Rlizaran/mathplotlib-challenge/blob/main/Pymaceuticals/data/Study_results.csv)
+### Main script
+* [pymaceuticals_starter.ipynb](https://github.com/Rlizaran/mathplotlib-challenge/blob/main/Pymaceuticals/pymaceuticals_starter.ipynb)
