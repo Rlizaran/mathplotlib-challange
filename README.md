@@ -1,4 +1,4 @@
-# mathplotlib-challange
+# mathplotlib-Pymaceuticals
 The power of Plots
 
 ## Background
